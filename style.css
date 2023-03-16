@@ -1,0 +1,387 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff5f1;
+}
+
+.info-tagliness {
+  top: 200px;
+  width: 70vw;
+}
+
+.tagline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.tagline h1 {
+  font-weight: 300;
+  font-size: 7vw;
+  line-height: 1.2em;
+  color: #181b32;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.tagline span {
+  color: #524fd5;
+  font-weight: bold;
+}
+
+.tagline .line-color {
+  color: #69b00b;
+  font-weight: bold;
+}
+
+.tagline p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.5em;
+  text-align: center;
+  color: #666680;
+  margin-bottom: 30px;
+}
+
+.tagline a {
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  width: 28%;
+  text-align: center;
+  background: #524fd5;
+  border-radius: 73px;
+  transition: 0.5s;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+  margin-bottom: 30px;
+}
+
+.tagline a:hover {
+  background: #69b00b;
+  transform: scale(1.1);
+}
+
+.tagline .tes {
+  background-color: salmon;
+  width: 450px;
+  height: 300px;
+}
+
+/* CSS Value*/
+.value-main {
+  margin: 150px 0;
+  text-align: center;
+  width: 100%;
+}
+.value-cont {
+  margin: 0 auto;
+}
+.value-cont h2 {
+  color: #e6c19f;
+  margin-bottom: 50px;
+}
+.values {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.value {
+  flex: auto;
+  width: 100%;
+  flex-direction: column;
+  padding: 15px;
+}
+.value img {
+  width: 250px;
+}
+.value img:hover {
+  transform: scale(1.2);
+  transition: 0.3s;
+}
+
+.teks {
+  margin: 0 auto;
+  width: 200px;
+  color: #5c5c5c;
+}
+
+/* css form */
+.form-section {
+  width: 90vw;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.form-title {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 58px;
+  text-align: center;
+}
+
+.form-title h2 {
+  color: #181b32;
+  font-size: 48px;
+  font-weight: 300;
+  line-height: 62.4px;
+}
+
+.form-title p {
+  color: #666680;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 34.2px;
+}
+
+form {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+label {
+  visibility: hidden;
+  margin-left: 15px;
+}
+
+input {
+  width: 100%;
+  height: 64px;
+  border-radius: 73px;
+  background-color: #f8fafe;
+  border: none;
+  padding: 0 25px;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  transition: 0.5s;
+}
+
+input:hover {
+  border-radius: 20px;
+  box-shadow: 0 0 4px rgb(0 0 0 / 0.1), 0 0 8px rgb(0 0 0 / 0.1), 0 0 16px rgb(0 0 0 / 0.1), 0 0 32px rgb(0 0 0 / 0.1);
+}
+
+button {
+  font-weight: 900;
+  width: 100%;
+  height: 64px;
+  cursor: pointer;
+  border-radius: 73px;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  transition: 0.5s;
+}
+
+button:nth-child(1) {
+  color: black;
+  background-color: #f8fafe;
+  border: 2px solid #524fd5;
+}
+
+button:nth-child(1):hover {
+  background-color: #69b00b;
+  border: 2px solid #69b00b;
+  border-radius: 25px;
+  transform: scale(1.1);
+}
+
+button:nth-child(2) {
+  color: white;
+  background-color: #524fd5;
+  border: 2px solid #524fd5;
+}
+
+button:nth-child(2):hover {
+  background-color: #69b00b;
+  border: 2px solid #69b00b;
+  border-radius: 25px;
+  transform: scale(1.1);
+}
+
+.btn-submit {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  gap: 20px;
+  margin: 10px 0;
+}
+
+@media (min-width: 640px) {
+  /* For tablets: */
+  .info-tagliness {
+    width: 90vw;
+  }
+
+  .tagline .line-color {
+    color: #524fd5;
+    font-weight: bold;
+  }
+
+  .tagline a {
+    padding: 15px 20px;
+    width: 28%;
+  }
+
+  /* CSS Value - Tablet*/
+  .value {
+    width: 50%;
+    margin-bottom: 10px;
+  }
+
+  /* css form */
+  form {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px 0;
+  }
+
+  .email,
+  .password {
+    width: 100%;
+  }
+
+  label {
+    visibility: visible;
+  }
+
+  .name {
+    display: flex;
+    flex-grow: 1;
+    gap: 30px;
+  }
+
+  .firstname,
+  .lastname,
+  .email,
+  .password {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 8px;
+  }
+
+  button {
+    width: 110px;
+  }
+}
+
+@media (min-width: 1024px) {
+  /* For desktop: */
+
+  /*css main - dekstop*/
+  .info-tagline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .tagline h1 {
+    font-weight: 400;
+    font-size: 45px;
+    color: #181b32;
+    margin-bottom: 20px;
+    text-align: left;
+    padding-left: 40px;
+    text-align: center;
+  }
+
+  .tagline .line-color {
+    color: orange;
+    font-weight: bold;
+  }
+
+  .tagline span {
+    color: #524fd5;
+    font-weight: bold;
+  }
+
+  .tagline p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.2rem;
+    line-height: 1.5em;
+    text-align: center;
+    color: #666680;
+    margin-bottom: 30px;
+  }
+
+  .tagline a {
+    padding: 18px 23px;
+    width: 28%;
+    font-size: 20px;
+  }
+
+  .tagline a:hover {
+    background: #69b00b;
+    transform: scale(1.1);
+  }
+
+  /*css value - dekstop*/
+  .value-main {
+    margin: 200px 0;
+    text-align: center;
+    width: 100%;
+  }
+  .value-cont {
+    margin: 0 auto;
+  }
+  .value-cont h2 {
+    color: #e6c19f;
+    margin-bottom: 50px;
+  }
+  .values {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .value {
+    flex: auto;
+    width: 25%;
+    padding: 15px;
+  }
+  .value img {
+    width: 250px;
+  }
+  .value img:hover {
+    transform: scale(1.2);
+    transition: 0.3s;
+  }
+
+  .teks {
+    margin: 0 auto;
+    width: 200px;
+    color: #5c5c5c;
+  }
+
+  /* css form -dekstop*/
+  .name {
+    width: 100%;
+  }
+  form {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .email,
+  .password {
+    width: fit-content;
+  }
+}
